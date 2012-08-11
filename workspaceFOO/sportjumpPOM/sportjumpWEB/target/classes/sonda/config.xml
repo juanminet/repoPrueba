@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf-sonda xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="conf-sonda.xsd">
+  <nombre-aplicacion>
+	Aplicacion Web : Ejemplo arquetipo
+  </nombre-aplicacion>
+  <!-- sonda>
+		<nombre>Sonda Base Datos</nombre>
+		<descripcion>Descripcion Sonda Base Datos</descripcion>
+		<implementacion>es.mma.sonda.runners.BaseDatosSondaRunner</implementacion>
+		<parametros>
+			<parametro>
+				<clave>jndi</clave>
+				<valor>java:comp/env/jdbc/bbdd</valor>
+			</parametro>
+			<parametro>
+				<clave>query</clave>
+				<valor>SELECT TCDATCODDAT FROM TTCDATOS where TCDATCODTBL = 'TABPROV'</valor>
+			</parametro>
+		</parametros>	
+	</sonda-->
+	<!--sonda>
+		<nombre>Sonda acceso archivos</nombre>
+		<descripcion>Escribe un archivo</descripcion>
+		<implementacion>es.mma.sonda.runners.EscrituraArchivosSondaRunner</implementacion>
+		<parametros>
+			<parametro>
+				<clave>jndi</clave>
+				<valor>java:comp/env/url/salida</valor>
+			</parametro>
+		</parametros>	
+	</sonda-->
+	<!--sonda>
+		<nombre>Sonda Servicio Host</nombre>
+		<descripcion>Descripcion Sonda Base Datos</descripcion>
+		<implementacion>es.mma.sonda.runners.HostSondaRunner</implementacion>
+		<parametros>
+			<parametro>
+				<clave>jndi</clave>
+				<valor>java:comp/env/jca/host</valor>
+			</parametro>
+			<parametro>
+				<clave>frase</clave>
+				<valor>Hola Mundo</valor>
+			</parametro>
+		</parametros>	
+	</sonda-->
+	<!-- sonda>
+		<nombre>Sonda Envio Email</nombre>
+		<descripcion>Descripcion Sonda Base Datos</descripcion>
+		<implementacion>es.mma.sonda.runners.MailSondaRunner</implementacion>
+		<parametros>
+			<parametro>
+				<clave>jndi</clave>
+				<valor>java:comp/env/mail/sesion</valor>
+			</parametro>
+			<parametro>
+				<clave>destinatarios</clave>
+				<valor>dcarrillo@mutua-mad.es</valor>
+			</parametro>
+		</parametros>	
+	</sonda-->	
+	<!--sonda>
+		<nombre>Sonda Eco OK</nombre>
+		<descripcion>Sonda prueba resultado correcto</descripcion>
+		<implementacion>es.mma.sonda.runners.EcoSondaRunner</implementacion>
+		<parametros>
+			<parametro>
+				<clave>ejecucion-correcta</clave>
+				<valor>true</valor>
+			</parametro>
+			<parametro>
+				<clave>frase</clave>
+				<valor>Hola Mundo</valor>
+			</parametro>			
+		</parametros>	
+	</sonda-->
+	<!--sonda>
+		<nombre>Sonda Eco FALLO</nombre>
+		<descripcion>Sonda prueba resultado correcto</descripcion>
+		<implementacion>es.mma.sonda.runners.EcoSondaRunner</implementacion>
+		<parametros>
+			<parametro>
+				<clave>ejecucion-correcta</clave>
+				<valor>false</valor>
+			</parametro>
+			<parametro>
+				<clave>frase</clave>
+				<valor>Hola Mundo</valor>
+			</parametro>			
+		</parametros>	
+	</sonda -->		
+</conf-sonda>

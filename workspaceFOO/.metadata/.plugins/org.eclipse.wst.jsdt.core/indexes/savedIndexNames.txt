@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+/home/juanminet/desarrollo/workspaces/workspaceFOO/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2212753655.index
+3081805524.index
+571985656.index
+3914400091.index
+300911552.index
